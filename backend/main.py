@@ -143,6 +143,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "deepguard-for-4.netlify.app"
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         "http://localhost:5173",
