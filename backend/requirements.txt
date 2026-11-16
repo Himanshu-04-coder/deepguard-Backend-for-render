@@ -35,4 +35,4 @@ numpy>=2.0,<3.0
 matplotlib==3.9.2
 
 # (Optional) for serving large uploads faster in production
-# python-multipart==0.0.12
+python-multipart==0.0.12
